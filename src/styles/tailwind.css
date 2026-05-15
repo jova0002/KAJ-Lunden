@@ -23,7 +23,7 @@
   --color-primary-white: #fffdf8;
   --color-primary-green: #857e38;
   --color-primary-rosa: #764e45;
-  --color-secondary-brown: #b15562;
+  --color-primary-brown: #b15562;
 
   /*Typografi */
   --font-main: "KumbhSans", sans-serif;
@@ -35,6 +35,21 @@
   .font-main {
     font-family: var(--font-main);
   }
+
+  /* Farver */
+
+  .color-primary-pink {
+    color: var(--color-primary-pink);
+  }
+  .color-primary-blue {
+    color: var(--color-primary-blue);
+  }
+  .color-primary-beige {
+    color: var(--color-primary-beige);
+  }
+  .color-primary-brown {
+    color: var(--color-primary-brown);
+  }
 }
 
 @layer components {
@@ -42,4 +57,7 @@
 
 /*make your own CSS tokens/variables here with their own titles */
 @layer utilities {
+  .text-brown {
+    color: var(--color-primary-brown);
+  }
 }
