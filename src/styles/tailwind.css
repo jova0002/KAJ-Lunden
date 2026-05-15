@@ -1,35 +1,40 @@
 @import "tailwindcss";
-
-@plugin '@tailwindcss/typography';
-@plugin '@tailwindcss/forms';
 @import "tailwindcss-animated";
 @import "tailwindcss-intersect";
 
+@plugin '@tailwindcss/typography';
+@plugin '@tailwindcss/forms';
+@plugin "daisyui";
+
 @font-face {
-  font-family: "Honk";
-  src: url("/fonts/Honk-Regular-VariableFont_MORF,SHLN.ttf") format("truetype");
+  font-family: "Gerak";
+  src: url("/fonts/Gerak-Yzn.otf") format("truetype");
 }
 
 @font-face {
-  font-family: "Quicksand";
-  src: url("/fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+  font-family: "KumbhSans";
+  src: url("/fonts/KumbhSans-VariableFont_wght.ttf") format("truetype");
 }
 
 @theme {
   /* Her tilføjes theme variable // tokens */
 
   /*Farver */
-  --color-primary-white: #00e4f5;
-  --color-primary-green: #006269;
-  --color-primary-rosa: #006d75;
-  --color-secondary-brown: #f5e400;
+  --color-primary-white: #fffdf8;
+  --color-primary-green: #857e38;
+  --color-primary-rosa: #764e45;
+  --color-secondary-brown: #b15562;
 
   /*Typografi */
-  --font-display: "Honk", monospace;
+  --font-main: "KumbhSans", sans-serif;
+  --font-chalk: "Gerak", sans-serif;
 }
 
 /*place the font family and colour variables here */
 @layer base {
+  .font-main {
+    font-family: var(--font-main);
+  }
 }
 
 @layer components {
