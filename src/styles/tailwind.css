@@ -8,12 +8,12 @@
 
 @font-face {
   font-family: "Gerak";
-  src: url("/fonts/Gerak-Yzn.otf") format("truetype");
+  src: url("/fonts/Gerak-YznAv.otf") format("opentype");
 }
 
 @font-face {
   font-family: "KumbhSans";
-  src: url("/fonts/KumbhSans-VariableFont_wght.ttf") format("truetype");
+  src: url("/fonts/KumbhSans-VariableFont_YOPQ,wght.ttf") format("truetype");
 }
 
 @theme {
@@ -34,6 +34,14 @@
 @layer base {
   .font-main {
     font-family: var(--font-main);
+  }
+
+  .font-chalk {
+    font-family: var(--font-chalk);
+  }
+
+  body {
+    background-color: var(--color-primary-white);
   }
 
   /* Farver */
