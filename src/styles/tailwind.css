@@ -60,4 +60,8 @@
   .text-brown {
     color: var(--color-primary-brown);
   }
+
+  .text-white {
+    color: var(--color-primary-white);
+  }
 }
