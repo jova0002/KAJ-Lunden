@@ -46,14 +46,14 @@
 
   /* Farver */
 
-  .color-primary-pink {
-    color: var(--color-primary-pink);
+  .color-primary-rosa {
+    color: var(--color-primary-rosa);
   }
-  .color-primary-blue {
-    color: var(--color-primary-blue);
+  .color-primary-green {
+    color: var(--color-primary-green);
   }
-  .color-primary-beige {
-    color: var(--color-primary-beige);
+  .color-primary-white {
+    color: var(--color-primary-white);
   }
   .color-primary-brown {
     color: var(--color-primary-brown);
